@@ -38,25 +38,25 @@ clearInput = () => {
 
 add = () => {
   this.state.prevNumber = this.state.input;
-  this.setState({ input: `+` });
+  this.setState({ input: "" });
   this.state.operator = "plus";
 };
 
 subtract = () => {
   this.state.prevNumber = this.state.input;
-  this.setState({ input: "-" });
+  this.setState({ input: "" });
   this.state.operator = "subtract";
 };
 
 multiply = () => {
   this.state.prevNumber = this.state.input;
-  this.setState({ input: "*" });
+  this.setState({ input: "" });
   this.state.operator = "multiply";
 };
 
 divide = () => {
   this.state.prevNumber = this.state.input;
-  this.setState({ input: "/" });
+  this.setState({ input: "" });
   this.state.operator = "divide";
 };
 
