@@ -1,0 +1,12 @@
+.f1 {
+  margin: 3px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  height: 2em;
+  background-color: #f0f0f0;
+  color: black;
+}
